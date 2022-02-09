@@ -1,0 +1,29 @@
+{
+  "name": "@geo-web/sdk",
+  "version": "1.0.0",
+  "description": "public sdk for shared resources to interact with the geoweb",
+  "author": "GeoWeb",
+  "license": "MIT",
+  "homepage": "https://github.com/Geo-Web-Project/sdk#readme",
+  "bugs": { "url": "https://github.com/Geo-Web-Project/sdk/issues"},
+  "keywords": [ "geoweb-sdk", "geoweb" ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "clean": "rimraf dist tsconfig.build.tsbuildinfo",
+    "build": "tsc -p tsconfig.build.json",
+    "prepare": "yarn build",
+    "test": "mocha -r ts-node/register \"test/**/*.test.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Geo-Web-Project/sdk.git"
+  },
+  "dependencies": {
+    "@geo-web/contracts": "^0.0.1",
+    "ethers": "^5.5.4"
+  },
+  "peerDependencies": {
+    "ethers": ">=5.0.0"
+  }
+}
