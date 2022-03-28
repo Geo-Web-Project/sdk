@@ -1,11 +1,9 @@
 import {
-  AccountantFactory,
   ERC721LicenseFactory,
-  ETHExpirationCollectorFactory,
-  ETHPurchaserFactory,
   GeoWebCoordinateFactory,
   GeoWebParcelFactory,
-  SimpleETHClaimerFactory,
+  AuctionSuperAppFactory,
+  FairLaunchClaimerFactory,
 } from '@geo-web/contracts';
 import type { Signer } from 'ethers';
 import type { Provider } from '@ethersproject/providers';
@@ -26,20 +24,8 @@ export const getContractsForChainOrThrow = (
   const addresses = getContractAddressesForChainOrThrow(chainId);
 
   return {
-    geoWebAccountantContract: AccountantFactory.connect(
-      addresses.accountant,
-      signerOrProvider as Signer | Provider,
-    ),
     geoWebERC721LicenseContract: ERC721LicenseFactory.connect(
       addresses.erc721License,
-      signerOrProvider as Signer | Provider,
-    ),
-    geoWebETHExpirationCollectorContract: ETHExpirationCollectorFactory.connect(
-      addresses.ethExpirationCollector,
-      signerOrProvider as Signer | Provider,
-    ),
-    geoWebETHPurchaserContract: ETHPurchaserFactory.connect(
-      addresses.ethPurchaser,
       signerOrProvider as Signer | Provider,
     ),
     geoWebCoordinateContract: GeoWebCoordinateFactory.connect(
@@ -50,9 +36,13 @@ export const getContractsForChainOrThrow = (
       addresses.geoWebParcel,
       signerOrProvider as Signer | Provider,
     ),
-    geoWebSimpleETHClaimerContract: SimpleETHClaimerFactory.connect(
-      addresses.simpleETHClaimer,
+    geoWebAuctionSuperAppContract: AuctionSuperAppFactory.connect(
+      addresses.auctionSuperApp,
       signerOrProvider as Signer | Provider,
     ),
+    geoWebFairLaunchClaimerContract: FairLaunchClaimerFactory.connect(
+      addresses.fairLaunchClaimer,
+      signerOrProvider as Signer | Provider,
+    )
   };
 };
