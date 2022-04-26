@@ -5,8 +5,13 @@
   "author": "GeoWeb",
   "license": "MIT",
   "homepage": "https://github.com/Geo-Web-Project/sdk#readme",
-  "bugs": { "url": "https://github.com/Geo-Web-Project/sdk/issues"},
-  "keywords": [ "geoweb-sdk", "geoweb" ],
+  "bugs": {
+    "url": "https://github.com/Geo-Web-Project/sdk/issues"
+  },
+  "keywords": [
+    "geoweb-sdk",
+    "geoweb"
+  ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -20,8 +25,9 @@
     "url": "git+https://github.com/Geo-Web-Project/sdk.git"
   },
   "dependencies": {
-    "@geo-web/contracts": "^0.0.1",
-    "ethers": "^5.5.4"
+    "@geo-web/contracts": "^1.0.0",
+    "ethers": ">=5.0.0",
+    "typescript": "^4.6.3"
   },
   "peerDependencies": {
     "ethers": ">=5.0.0"
