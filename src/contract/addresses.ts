@@ -1,16 +1,15 @@
 import { ChainId, ContractAddresses } from './types';
 
 const chainIdToAddresses: { [chainId: number]: ContractAddresses } = {
-  // [ChainId.Rinkeby]: {
-  //   geoWebCoordinate: '0x75CD1B88d09b2D8fCF46ec94dc028cF3DB04d96C',
-  //   geoWebCoordinatePath: '0xbdbd0Eb8190f1519c7213a0E61256476c01781C7',
-  //   geoWebParcel: '0x36Cf448d15Dbf4365c7421FA94dBEC93B95720E4',
-  //   accountant: '0x45fdCbcAaBE80b630d83a0f5a0Fb4a8b9cEFf84E',
-  //   erc721License: '0xF2282541d384D6d9A5C9B02D020fDFededd8D827',
-  //   ethPurchaser: '0xAEAd5f4FAb0cdA5f1E99a12830BF10fF8101c49C',
-  //   ethExpirationCollector: '0x8C6e0d49ca34fd262B209509F32aE4eC8D04F9eE',
-  //   simpleETHClaimer: '0x8a9c5ceeE10248e00F11c4F1da11349D6FAf6873',
-  // }
+  [ChainId.Rinkeby]: {
+    geoWebCoordinate: '0xFa715d9a283b38A0bCAEC012AAE3877690F5Bb72',
+    geoWebCoordinatePath: '0x1BeF8BD9862974868C27CDAC03E9aEc785456cf6',
+    geoWebParcel: '0xF1ec2e713DF0c7Bbad390Ae52a17a7Ed35059DaA',
+    erc721License: '0x1f88b79438Be7dc59d2644168D2E0879e283fFCb',
+    fairLaunchClaimer: '0xe62D6E28597471a84daa57392021a21696e17404',
+    reclaimer: '0xaE62A19F16b0573006BC61183c9C1d141d1B9433',
+    auctionSuperApp: '0xe7B42eD377937682D458E74352D621690165d7F1',
+  }
 
   // TODO im not sure yet how to do the localhost settings or if they even belong here in the sdk
   // [ChainId.Local]: {

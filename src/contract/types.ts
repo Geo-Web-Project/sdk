@@ -4,6 +4,7 @@ import {
   GeoWebParcelFactory,
   AuctionSuperAppFactory,
   FairLaunchClaimerFactory,
+  ReclaimerFactory,
 } from '@geo-web/contracts';
 
 export interface ContractAddresses {
@@ -13,6 +14,7 @@ export interface ContractAddresses {
   geoWebCoordinate: string;
   geoWebCoordinatePath: string;
   geoWebParcel: string;
+  reclaimer: string;
 }
 
 export interface Contracts {
@@ -21,6 +23,7 @@ export interface Contracts {
   geoWebParcelContract: ReturnType<typeof GeoWebParcelFactory.connect>
   geoWebAuctionSuperAppContract: ReturnType<typeof AuctionSuperAppFactory.connect>
   geoWebFairLaunchClaimerContract: ReturnType<typeof FairLaunchClaimerFactory.connect>
+  geoWebReclaimerContract: ReturnType<typeof ReclaimerFactory.connect>
 }
 
 export enum ChainId {

@@ -4,6 +4,7 @@ import {
   GeoWebParcelFactory,
   AuctionSuperAppFactory,
   FairLaunchClaimerFactory,
+  ReclaimerFactory
 } from '@geo-web/contracts';
 import type { Signer } from 'ethers';
 import type { Provider } from '@ethersproject/providers';
@@ -43,6 +44,10 @@ export const getContractsForChainOrThrow = (
     geoWebFairLaunchClaimerContract: FairLaunchClaimerFactory.connect(
       addresses.fairLaunchClaimer,
       signerOrProvider as Signer | Provider,
-    )
+    ),
+    geoWebReclaimerContract: ReclaimerFactory.connect(
+      addresses.reclaimer,
+      signerOrProvider as Signer | Provider,
+    ),
   };
 };

@@ -12,4 +12,6 @@ export {
   GeoWebParcelFactory,
   AuctionSuperAppFactory,
   FairLaunchClaimerFactory,
+  ReclaimerABI,
+  ReclaimerFactory
 } from '@geo-web/contracts';
