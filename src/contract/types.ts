@@ -29,5 +29,6 @@ export interface Contracts {
 export enum ChainId {
   Mainnet = 1,
   Rinkeby = 4,
+  OptimismKovan = 69,
   Local = 31337,
 }

@@ -1,14 +1,14 @@
 import { ChainId, ContractAddresses } from './types';
 
 const chainIdToAddresses: { [chainId: number]: ContractAddresses } = {
-  [ChainId.Rinkeby]: {
-    geoWebCoordinate: '0xFa715d9a283b38A0bCAEC012AAE3877690F5Bb72',
-    geoWebCoordinatePath: '0x1BeF8BD9862974868C27CDAC03E9aEc785456cf6',
-    geoWebParcel: '0xF1ec2e713DF0c7Bbad390Ae52a17a7Ed35059DaA',
-    erc721License: '0x1f88b79438Be7dc59d2644168D2E0879e283fFCb',
-    fairLaunchClaimer: '0xe62D6E28597471a84daa57392021a21696e17404',
-    reclaimer: '0xaE62A19F16b0573006BC61183c9C1d141d1B9433',
-    auctionSuperApp: '0xe7B42eD377937682D458E74352D621690165d7F1',
+  [ChainId.OptimismKovan]: {
+    geoWebCoordinate: '0xa26715061D253A41D1f0BB90f162d54ecC282E57',
+    geoWebCoordinatePath: '0xBD260068682aE150CeEbBD9B88109D18EdBc415E',
+    geoWebParcel: '0x6E7861d67b7619bc946D73674F1695E428FF3d73',
+    erc721License: '0x9F83D8af21FADbbDC8c9e64bA8374FEb623eEFB3',
+    fairLaunchClaimer: '0xb49e55847e3E60C78BDd96816b0eF6c1DE60cE86',
+    reclaimer: '0xe9b5ab496FD9CD95948D3b4bAAA471Eef313C7CF',
+    auctionSuperApp: '0xBB53852D323E26DB296B753dF58B09B9B0924D1b',
   }
 
   // TODO im not sure yet how to do the localhost settings or if they even belong here in the sdk
