@@ -769,10 +769,10 @@
     "@ethersproject/properties" "^5.6.0"
     "@ethersproject/strings" "^5.6.0"
 
-"@geo-web/contracts@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@geo-web/contracts/-/contracts-1.1.0.tgz#39f7dc0eca1a7c6ed046788f1e2a9edafb3ffa49"
-  integrity sha512-1yVBP3HwK0CXKMNOROYmucVGZHdJRAsvJPh+0RX7pyjX0I3dEZIN+EuQSGILcJdEcmCtVdOt1LtOpJeXzB7agw==
+"@geo-web/contracts@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@geo-web/contracts/-/contracts-1.1.3.tgz#1931cab1fceb3536efb4e6060e8bd195a924e1dc"
+  integrity sha512-bYJjvAbGwluQUhNBR5aady2U/O5X6eoiWpoLTpJTCwPLitCBlmKc7KCdpNGC4CQWXtx1bJ/KRYg0uAkgu0uIeQ==
   dependencies:
     "@openzeppelin/contracts" "^4.6.0"
     "@openzeppelin/contracts-upgradeable" "^4.6.0"
