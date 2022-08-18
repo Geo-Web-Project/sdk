@@ -1,17 +1,9 @@
-export { getContractAddressesForChainOrThrow } from './addresses';
-export { getContractsForChainOrThrow } from './contracts';
-export { ChainId, ContractAddresses } from './types';
+export { getContractAddressesForChainOrThrow } from "./addresses";
+export { getContractsForChainOrThrow } from "./contracts";
+export { ChainId, ContractAddresses } from "./types";
 export {
-  ERC721LicenseABI,
-  GeoWebCoordinateABI,
-  GeoWebParcelABI,
-  AuctionSuperAppABI,
-  FairLaunchClaimerABI,
-  ERC721LicenseFactory,
-  GeoWebCoordinateFactory,
-  GeoWebParcelFactory,
-  AuctionSuperAppFactory,
-  FairLaunchClaimerFactory,
-  ReclaimerABI,
-  ReclaimerFactory
-} from '@geo-web/contracts';
+  RegistryDiamondABI,
+  RegistryDiamondFactory,
+  PCOLicenseDiamondABI,
+  PCOLicenseDiamondFactory,
+} from "@geo-web/contracts";
