@@ -1,15 +1,9 @@
-import {
-  ERC721LicenseFactory,
-  GeoWebCoordinateFactory,
-  GeoWebParcelFactory,
-  AuctionSuperAppFactory,
-  FairLaunchClaimerFactory,
-  ReclaimerFactory
-} from '@geo-web/contracts';
-import type { Signer } from 'ethers';
-import type { Provider } from '@ethersproject/providers';
-import { getContractAddressesForChainOrThrow } from './addresses';
-import { Contracts } from './types';
+import { RegistryDiamondFactory } from "@geo-web/contracts";
+
+import type { Signer } from "ethers";
+import type { Provider } from "@ethersproject/providers";
+import { getContractAddressesForChainOrThrow } from "./addresses";
+import { Contracts } from "./types";
 
 /**
  * Get contract instances that target the Ethereum mainnet
@@ -20,34 +14,14 @@ import { Contracts } from './types';
  */
 export const getContractsForChainOrThrow = (
   chainId: number,
-  signerOrProvider?: Signer | Provider,
+  signerOrProvider?: Signer | Provider
 ): Contracts => {
   const addresses = getContractAddressesForChainOrThrow(chainId);
 
   return {
-    geoWebERC721LicenseContract: ERC721LicenseFactory.connect(
-      addresses.erc721License,
-      signerOrProvider as Signer | Provider,
-    ),
-    geoWebCoordinateContract: GeoWebCoordinateFactory.connect(
-      addresses.geoWebCoordinate,
-      signerOrProvider as Signer | Provider,
-    ),
-    geoWebParcelContract: GeoWebParcelFactory.connect(
-      addresses.geoWebParcel,
-      signerOrProvider as Signer | Provider,
-    ),
-    geoWebAuctionSuperAppContract: AuctionSuperAppFactory.connect(
-      addresses.auctionSuperApp,
-      signerOrProvider as Signer | Provider,
-    ),
-    geoWebFairLaunchClaimerContract: FairLaunchClaimerFactory.connect(
-      addresses.fairLaunchClaimer,
-      signerOrProvider as Signer | Provider,
-    ),
-    geoWebReclaimerContract: ReclaimerFactory.connect(
-      addresses.reclaimer,
-      signerOrProvider as Signer | Provider,
+    registryDiamondContract: RegistryDiamondFactory.connect(
+      addresses.registryDiamond,
+      signerOrProvider as Signer | Provider
     ),
   };
 };
