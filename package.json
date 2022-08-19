@@ -1,6 +1,6 @@
 {
   "name": "@geo-web/sdk",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "public sdk for shared resources to interact with the geoweb",
   "author": "GeoWeb",
   "license": "MIT",
