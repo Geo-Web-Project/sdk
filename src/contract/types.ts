@@ -9,7 +9,7 @@ export interface Contracts {
 }
 
 export enum ChainId {
-  Goerli = 10,
+  Goerli = 5,
   OptimismKovan = 69,
   Local = 31337,
 }
