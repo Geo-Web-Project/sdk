@@ -1,6 +1,6 @@
 {
   "name": "@geo-web/sdk",
-  "version": "2.4.0",
+  "version": "2.4.1",
   "description": "public sdk for shared resources to interact with the geoweb",
   "author": "GeoWeb",
   "license": "MIT",
@@ -25,7 +25,7 @@
     "url": "git+https://github.com/Geo-Web-Project/sdk.git"
   },
   "dependencies": {
-    "@geo-web/contracts": "2.4.0",
+    "@geo-web/contracts": "2.4.1",
     "ethers": ">=5.0.0",
     "typescript": "^4.6.3"
   },
