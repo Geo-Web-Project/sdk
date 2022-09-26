@@ -4,6 +4,9 @@ const chainIdToAddresses: { [chainId: number]: ContractAddresses } = {
   [ChainId.Goerli]: {
     registryDiamond: "0x6CC6d2ba9668d5F8F5D08A45520E935cD6CDfc6f",
   },
+  [ChainId.OptimismGoerli]: {
+    registryDiamond: "0xB4690180d9a34Dd67CCcA8d45F8154a448584815",
+  },
 };
 
 /**
