@@ -819,10 +819,10 @@
     "@ethersproject/properties" "^5.6.0"
     "@ethersproject/strings" "^5.6.0"
 
-"@geo-web/contracts@4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@geo-web/contracts/-/contracts-4.0.0.tgz#f7ffbfbf3943db7b1a85a692a47afd601d6d5ae2"
-  integrity sha512-Pies9bsDbPMcFo9u79nm8LJ1gEMKYtCi6OySLZCOF26mxhgiY+q9SnfOuamIU1q55+2g5sh1FMrlYk2tzeIBpQ==
+"@geo-web/contracts@4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@geo-web/contracts/-/contracts-4.0.1.tgz#7594fc1a00665a1db367ce576ecad3a1eec3cfc1"
+  integrity sha512-gRFwGz1W29z4Ymq7oGxaCDP6FPRO7dKBoQd43mCkmSqj40g4KXOnm9dL5EhHsb4lsMbXQBQVuFsQSJVd61QYVg==
   dependencies:
     "@superfluid-finance/ethereum-contracts" "^1.3.0"
     "@truffle/hdwallet-provider" "^1.1.1"
