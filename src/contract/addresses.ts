@@ -2,7 +2,7 @@ import { ChainId, ContractAddresses } from "./types";
 
 const chainIdToAddresses: { [chainId: number]: ContractAddresses } = {
   [ChainId.Goerli]: {
-    registryDiamond: "0xe9b5ab496FD9CD95948D3b4bAAA471Eef313C7CF",
+    registryDiamond: "0x6a1E708Cb134DDff5259cb274A7407E0a6859F14",
   },
 };
 
