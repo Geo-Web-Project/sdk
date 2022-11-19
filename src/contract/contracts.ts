@@ -1,4 +1,4 @@
-import { RegistryDiamondFactory } from "@geo-web/contracts";
+import { IRegistryDiamondFactory } from "@geo-web/contracts";
 
 import type { Signer } from "ethers";
 import type { Provider } from "@ethersproject/providers";
@@ -19,7 +19,7 @@ export const getContractsForChainOrThrow = (
   const addresses = getContractAddressesForChainOrThrow(chainId);
 
   return {
-    registryDiamondContract: RegistryDiamondFactory.connect(
+    registryDiamondContract: IRegistryDiamondFactory.connect(
       addresses.registryDiamond,
       signerOrProvider as Signer | Provider
     ),

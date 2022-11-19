@@ -1,11 +1,11 @@
-import { RegistryDiamondFactory } from "@geo-web/contracts";
+import { IRegistryDiamondFactory } from "@geo-web/contracts";
 
 export interface ContractAddresses {
   registryDiamond: string;
 }
 
 export interface Contracts {
-  registryDiamondContract: ReturnType<typeof RegistryDiamondFactory.connect>;
+  registryDiamondContract: ReturnType<typeof IRegistryDiamondFactory.connect>;
 }
 
 export enum ChainId {
