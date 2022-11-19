@@ -819,10 +819,10 @@
     "@ethersproject/properties" "^5.6.0"
     "@ethersproject/strings" "^5.6.0"
 
-"@geo-web/contracts@4.1.1":
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/@geo-web/contracts/-/contracts-4.1.1.tgz#161b08df34f45dcbd947f9112cf8a63d360e192d"
-  integrity sha512-ID6qprZvDzQnTm7hnvJcHvR+Vo9+osnUlReB3G0YlNeZQQB/OQ+G5rJGlizwPoaaIRohuAtYYPw0QK53X/JPGg==
+"@geo-web/contracts@4.1.3":
+  version "4.1.3"
+  resolved "https://registry.yarnpkg.com/@geo-web/contracts/-/contracts-4.1.3.tgz#18cb7698b93cabcf9958eee96ec5b93e7da03c01"
+  integrity sha512-yGlmzaJ3V66guxQFzmvQC3CPMx/KtNvGgM4hy1QRYIJDXLBXDFy/gKx2+n1zWZkjL72I50GfFirfDe9kVJlGqA==
   dependencies:
     "@openzeppelin/contracts" "^4.7.0"
     "@superfluid-finance/ethereum-contracts" "1.3.0"
