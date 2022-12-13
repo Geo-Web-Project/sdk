@@ -1,6 +1,9 @@
 import { ChainId, ContractAddresses } from "./types";
 
 const chainIdToAddresses: { [chainId: number]: ContractAddresses } = {
+  [ChainId.Optimism]: {
+    registryDiamond: "0xBA1231785A7b4AC0E8dC9a0403938C2182cE4A4e",
+  },
   [ChainId.Goerli]: {
     registryDiamond: "0x6a1E708Cb134DDff5259cb274A7407E0a6859F14",
   },
