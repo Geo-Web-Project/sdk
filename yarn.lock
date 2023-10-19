@@ -1161,10 +1161,10 @@
     "@ethersproject/properties" "^5.7.0"
     "@ethersproject/strings" "^5.7.0"
 
-"@geo-web/contracts@4.3.0":
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/@geo-web/contracts/-/contracts-4.3.0.tgz#70259424a58d551779e384bcefbe73cc56dfd11e"
-  integrity sha512-cRegYz81SGCB2xUOc+ehFNALYaeu3dOdIiVSLxOHJp1l9yP5SikEdYgu/kQ3iaky21EDweu3+403Ng1JUDwNKw==
+"@geo-web/contracts@4.3.1":
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/@geo-web/contracts/-/contracts-4.3.1.tgz#ba90f818375ebb9e4545879497ab7795781b6773"
+  integrity sha512-wZvfeiLgn25YknmTR7hMyt6fxuhRyGCnSC36E3MrR/iyLl4pKRXx4FgmVYdYChEmlR8tD1AFUwkIrlNFvLvmkw==
   dependencies:
     "@openzeppelin/contracts" "^4.7.0"
     "@superfluid-finance/ethereum-contracts" "1.3.0"
