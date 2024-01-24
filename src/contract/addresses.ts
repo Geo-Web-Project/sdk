@@ -13,6 +13,9 @@ const chainIdToAddresses: { [chainId: number]: ContractAddresses } = {
   [ChainId.Sepolia]: {
     registryDiamond: "0xaDD2eFb7f87Db4003c50d4aE60Bcc82b255F9222",
   },
+  [ChainId.OptimismSepolia]: {
+    registryDiamond: "0x204EFCebEc7F95f89019F64521ee1413B22E5Efe",
+  },
 };
 
 /**

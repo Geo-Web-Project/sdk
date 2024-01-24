@@ -13,6 +13,7 @@ export enum ChainId {
   Optimism = 10,
   OptimismKovan = 69,
   OptimismGoerli = 420,
+  OptimismSepolia = 11155420,
   Sepolia = 11155111,
   Local = 31337,
 }
